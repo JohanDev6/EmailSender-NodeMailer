@@ -1,0 +1,22 @@
+{
+  "name": "express-example-starter",
+  "version": "1.0.0",
+  "description": "An Express-based application skeleton",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js localhost 8080"
+  },
+  "dependencies": {
+    "dotenv": "10.0.0",
+    "express": "~4.16.1",
+    "node-ma": "1.0.3",
+    "nodemailer": "6.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  },
+  "keywords": [
+    "expressjs",
+    "express"
+  ]
+}
