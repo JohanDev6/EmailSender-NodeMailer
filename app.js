@@ -7,6 +7,6 @@ app.use(express.urlencoded({ extended: false }));
 
 app.use("/", indexRouter);
 
-const listener = app.listen(8080, function () {
-  console.log("Listening on port " + listener.address().port);
+app.listen(process.env.PORT || 5000, "0.0.0.0", function () {
+  console.log("Listening on port 3000");
 });
